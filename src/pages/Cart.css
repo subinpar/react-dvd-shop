@@ -1,0 +1,158 @@
+.cart-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.section-box {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  margin-top: 40px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}
+
+.cart-title,
+.favorites-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.cart-empty {
+  font-size: 18px;
+  color: #888;
+  text-align: center;
+}
+
+.cart-item {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px 0;
+}
+
+.item-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.quantity-controls button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #ddd;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.quantity-controls button:hover {
+  background-color: #bbb;
+}
+
+.quantity-controls span {
+  font-size: 16px;
+  width: 24px;
+  text-align: center;
+}
+
+.remove-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.remove-btn:hover {
+  background-color: #c0392b;
+}
+
+.cart-total {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: #333;
+}
+
+.checkout-btn {
+  background-color: #27ae60;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.checkout-btn:hover {
+  background-color: #1e874b;
+}
+
+/* 찜한 상품 스타일 */
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.favorite-card {
+  width: 200px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 12px;
+  background-color: #fafafa;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.favorite-card:hover {
+  transform: translateY(-4px);
+}
+
+.favorite-image {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.favorite-info h4 {
+  font-size: 16px;
+  margin: 4px 0;
+  color: #34495e;
+}
+
+.favorite-info p {
+  font-size: 14px;
+  color: #666;
+}
+
+.favorite-add-btn {
+  margin-top: 8px;
+  padding: 6px 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.favorite-add-btn:hover {
+  background-color: #2980b9;
+}

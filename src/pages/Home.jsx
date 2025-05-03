@@ -13,9 +13,7 @@ export default function Home() {
 
   return (
     <div className="page-container" style={{ fontSize: "32px" }}>
-      홈화면입니다.
-      <input value={word} onChange={(e) => setWord(e.target.value)} />
-      <button onClick={onClickWord}>확인</button>
+      사이트 방문을 환영합니다!🥳
     </div>
   );
 }

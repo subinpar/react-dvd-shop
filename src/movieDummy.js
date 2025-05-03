@@ -23,7 +23,7 @@ export const dummy = {
       video: false,
       vote_average: 6.7,
       vote_count: 727,
-      price: 19900,
+      price: 30000,
     },
     {
       adult: false,
@@ -131,7 +131,7 @@ export const dummy = {
       video: false,
       vote_average: 6.1,
       vote_count: 256,
-      price: 19900,
+      price: 20000,
     },
     {
       adult: false,
@@ -239,7 +239,7 @@ export const dummy = {
       video: false,
       vote_average: 0,
       vote_count: 0,
-      price: 19900,
+      price: 29900,
     },
     {
       adult: false,
@@ -311,7 +311,7 @@ export const dummy = {
       video: false,
       vote_average: 5,
       vote_count: 309,
-      price: 19900,
+      price: 30000,
     },
     {
       adult: false,
